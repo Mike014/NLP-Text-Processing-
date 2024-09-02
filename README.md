@@ -43,23 +43,23 @@ The `analyze.html` file is the HTML template that displays the text analysis res
 
 1. **Clone the Repository**
 
-git clone https://github.com/Mike014/Django.git cd Django
+```git clone https://github.com/Mike014/NLP-Text-Processing-``` ```git cd Django```
 
 2. **Create a Virtual Environment**
 
-python -m venv venv source venv/bin/activate  # On Windows use venv\Scripts\activate
+```python -m venv venv source venv/bin/activate```  # On Windows use venv\Scripts\activate
 
 3. **Install Dependencies**
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 4. **Run Database Migrations**
 
-python manage.py makemigrations python manage.py migrate
+```python manage.py makemigrations``` ```python manage.py migrate```
 
 5. **Start the Django Server**
 
-python manage.py runserver
+```python manage.py runserver```
 
 6. **Access the Application**
 
